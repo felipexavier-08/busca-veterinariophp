@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+
+    background-color: rgb(255, 255, 255);
+    padding-top: 25px;
+
+}
+
+#area-busca{
+
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 5px;
+
+}
+
+#area-busca input{
+
+    height: 40px;
+    min-width: 400px;
+    padding: 10px;
+    border-radius: 5px;
+    border-color: blue;
+
+}
+
+#area-busca button{
+
+    height: 40px;
+    min-width: 50px;
+    border-radius: 4px;
+    margin-left: -5px;
+    border-color: blue;
+    color: white;
+    background-color: blue;
+    cursor: pointer;
+
+}
+#area-busca button:hover{
+
+    cursor: pointer;
+
+}
+
+
+hr{
+    color: blue;
+    background-color: blue;
+    height: 5px;
+    border: none;
+    margin-bottom: 10px;
+
+}
+
+#resultado{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+
+}
+#resultado .divAnimal{
+
+    display: flex;
+    width: 400px;
+    height: 100px;
+    display: flex;
+    border: 2px solid rgb(255, 31, 31);
+}
+
+#resultado .divAnimal a{
+
+    display: flex;
+
+}
+
+#resultado .divAnimal a h1{
+    font-size: 25px;
+}
+
+#resultado .divAnimal a img{
+    height: 50px;
+}
+
+#resultado .divAnimal a div{
+    border: 2px solid green;   
+}
