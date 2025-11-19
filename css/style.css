@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+body{
+
+    background-color: rgb(255, 255, 255);
+    padding-top: 25px;
+
+}
+
+h3{
+
+    font-size: 115%;
+
+}
+
+#area-busca{
+
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 5px;
+
+}
+
+#area-busca input{
+
+    height: 40px;
+    min-width: 400px;
+    padding: 10px;
+    border-radius: 5px;
+    border-color: blue;
+
+}
+
+#area-busca input:focus{
+
+    border-color: blue;
+
+}
+
+#area-busca button{
+
+    height: 40px;
+    min-width: 50px;
+    border-radius: 4px;
+    margin-left: -5px;
+    border-color: blue;
+    color: white;
+    background-color: blue;
+    cursor: pointer;
+
+}
+#area-busca button:hover{
+
+    cursor: pointer;
+
+}
+
+
+hr{
+    color: blue;
+    background-color: blue;
+    height: 5px;
+    border: none;
+    margin: 10px;
+    margin-bottom: 10px;
+
+}
+
+#resultado{
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 3px;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    padding: 5px;
+
+}
+#resultado .divAnimal{
+
+    border-radius: 3%;
+    display: flex;
+    margin: 3px;
+    max-width: 280px;
+    height: 130px;
+    display: flex;
+    padding: 10px;
+    box-shadow: 2px 4px 8px rgba(12, 16, 230, 0.767);
+
+}
+
+#resultado .divAnimal a{
+
+    display: flex;
+    flex-grow: 1;
+    padding: 0px 10px;
+    gap: 5px;
+    align-self: center;
+
+}
+
+#resultado .divAnimal a img{
+
+    height: 80px;
+    border: 2px solid blue;
+    border-radius: 5px;
+    align-self: center;
+
+}
